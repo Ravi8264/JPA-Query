@@ -1,0 +1,25 @@
+- Distinct: findDistinctByLastnameAndFirstname — selects distinct records.
+- And: findByLastnameAndFirstname — combines two conditions with AND.
+- Or: findByLastnameOrFirstname — combines two conditions with OR.
+- Is, Equals: findByFirstname, findByFirstnameIs, findByFirstnameEquals — checks if a value matches exactly.
+- Between: findByStartDateBetween — checks if a value is between two values.
+- LessThan: findByAgeLessThan — checks if value is less than a given number.
+- LessThanEqual: findByAgeLessThanEqual — checks if value is less than or equal.
+- GreaterThan: findByAgeGreaterThan — checks if value is greater than.
+- GreaterThanEqual: findByAgeGreaterThanEqual — checks if value is greater than or equal.
+- After: findByStartDateAfter — checks if date is after a given date.
+- Before: findByStartDateBefore — checks if date is before a given date.
+- IsNull, Null: findByAgeIsNull — checks if a field is null.
+- IsNotNull, NotNull: findByAgeIsNotNull — checks if a field is not null.
+- Like: findByFirstnameLike — pattern matching using LIKE operator.
+- NotLike: findByFirstnameNotLike — pattern matching for NOT LIKE.
+- StartingWith: findByFirstnameStartingWith — matches values that start with given string.
+- EndingWith: findByFirstnameEndingWith — matches values that end with given string.
+- Containing: findByFirstnameContaining — matches values containing a string anywhere.
+- OrderBy: findByAgeOrderByLastnameDesc — sorts results based on given field.
+- Not: findByLastnameNot — checks if value is not equal.
+- In: findByAgeIn — checks if value is present inside a list.
+- NotIn: findByAgeNotIn — checks if value is not present inside a list.
+- True: findByActiveTrue — checks if boolean field is true.
+- False: findByActiveFalse — checks if boolean field is false.
+- IgnoreCase: findByVaccineNameIgnoreCase — performs case-insensitive search.
